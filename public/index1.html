@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="output">Original text</div>
+    <button id="change">Do it</button>
+    <script>
+      document.getElementById("change").addEventListener("click", () => {
+        // change the text, but do it after a random delay,
+        // almost like the application is loading something from the backend
+        setTimeout(
+          () => {
+            document.getElementById("output").innerText = "Changed!";
+          },
+          1000 + 1000 * Math.random(),
+        );
+      });
+    </script>
+  </body>
+</html>
