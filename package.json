@@ -1,0 +1,23 @@
+{
+  "name": "cypress-problem-statements",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/engineersubhadip/Cypress-Problem-Statements#readme",
+  "bugs": {
+    "url": "https://github.com/engineersubhadip/Cypress-Problem-Statements/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineersubhadip/Cypress-Problem-Statements.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
+}
