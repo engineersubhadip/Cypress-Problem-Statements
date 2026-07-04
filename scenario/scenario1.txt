@@ -1,0 +1,2 @@
+We want to confirm that the text on the page changes after the user clicks the button. We do not know the initial text, just know that is changes in response to the click.
+Ref file : index1.html / scenario1.js
