@@ -1,0 +1,13 @@
+First scenario :-
+-------------------
+
+Let's say we have a list of items
+Let's confirm each item starts with the fruit name
+
+reference : index5.html / scenario5.js
+
+Second scenario [Verify the images has been loaded] :-
+----------------------------------------------------
+Let's confirm that every image has attribute alt with a non-empty value to be accessible.
+
+reference : index6.html / scenario5.js
