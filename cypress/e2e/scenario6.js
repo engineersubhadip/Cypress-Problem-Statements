@@ -35,7 +35,7 @@ it("Click on the button, only if its visible", () => {
     });
 });
 
-it.only("Click on the button if its not disabled", () => {
+it("Click on the button if its not disabled", () => {
   cy.visit("/index9.html");
   cy.get("#btn").then((button) => {
     cy.wrap(button)
