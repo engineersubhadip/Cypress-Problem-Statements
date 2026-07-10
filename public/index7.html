@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle checkbox</title>
+  </head>
+  <body>
+    <div>
+      <input type="checkbox" id="done" />
+      <label for="done">Toggle me!</label>
+    </div>
+    <script>
+      // sometimes the checkbox is checked
+      const dice = Math.random();
+      if (dice < 0.5) {
+        document.querySelector("input").checked = true;
+      }
+    </script>
+  </body>
+</html>

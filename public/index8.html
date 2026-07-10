@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Button ?</title>
+  </head>
+  <body>
+    <div>
+      <p>The button might appear here</p>
+      <div id="output"></div>
+    </div>
+    <script>
+      if (Math.random() < 0.5) {
+        const output = document.getElementById("output");
+        const btn = document.createElement("button");
+        btn.innerHTML = "Click Me";
+        output.appendChild(btn);
+        btn.addEventListener("click", () => {
+          console.log("Clicked");
+        });
+      }
+    </script>
+  </body>
+</html>

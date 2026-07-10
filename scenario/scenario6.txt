@@ -1,0 +1,17 @@
+Scenario 1 :
+---------------
+Let's say that you have a checkbox when the page loads. Sometimes the checkbox is checked, sometimes not. How do you toggle the checkbox?
+
+ref : index7.html / scenario6.js
+
+Scenario 2 :
+-------------
+Let's say that we want to click a button if it is present on the page. We need to avoid triggering the built-in existence assertion in the cy.get or cy.contains commands, and click the button only after checking it ourselves.
+
+ref : index8.html / scenario6.js
+
+Scenario 3 :
+---------------
+Let's say that we want to click a button if it not disabled. Otherwise, just print a message to the console.log
+
+ref : index9.html / scenario6.js

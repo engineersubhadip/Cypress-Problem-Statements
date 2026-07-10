@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enable ? Or Disable ?</title>
+  </head>
+  <body>
+    <div>
+      <p>
+        The button might be disabled
+        <button id="btn">Click Me</button>
+      </p>
+    </div>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", function () {
+        alert("Clicked");
+      });
+
+      if (Math.random() < 0.5) {
+        btn.setAttribute("disabled", "disabled");
+      }
+    </script>
+  </body>
+</html>
