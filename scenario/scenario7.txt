@@ -1,0 +1,5 @@
+Click a single picked list item
+Sometimes you might want to pick a random element from selected elements on the page. 
+Make sure the elements are ready before picking - the elements might be added asynchronously.
+
+ref : index10.html / scenario7.js
