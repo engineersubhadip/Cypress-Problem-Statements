@@ -1,0 +1,3 @@
+In this example, we do not know how many items are in the list initially. After clicking a button we want to confirm that the list has increased by one item.
+
+ref: index3.html / scenario3.js
