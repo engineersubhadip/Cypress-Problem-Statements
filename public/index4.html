@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ol id="list">
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ol>
+    <button id="del">Delete a list item</button>
+    <script>
+      let list2 = document.getElementById("list");
+      document.getElementById("del").addEventListener("click", function () {
+        // simulate an application with random delay
+        setTimeout(
+          () => {
+            list2.children[0].remove();
+          },
+          Math.random() * 1000 + 1500,
+        );
+      });
+    </script>
+  </body>
+</html>
