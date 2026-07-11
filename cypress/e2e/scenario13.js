@@ -13,6 +13,33 @@ function editUserName(userID, targetUserName) {
           const currID = col.text();
           if (currID == userID) {
             console.log("Found it at row -> ", rowIdx + 1);
+            console.log("Edit is in progress ...");
+            cy.wrap(row)
+              .find("td")
+              .eq(0)
+              .find("a.ng2-smart-action-edit-edit")
+              .click();
+
+            cy.wrap(row)
+              .find("td")
+              .eq(5)
+              .find("input")
+              .clear()
+              .type("test123@test.com");
+
+            cy.wrap(row)
+              .find("td")
+              .eq(0)
+              .find("a.ng2-smart-action-edit-save")
+              .click();
+            cy.wrap(row)
+              .find("td")
+              .eq(5)
+              .invoke("text")
+              .should("eql", "test123@test.com");
+
+            console.log("Edit has been completed !");
+
             flag = true;
           }
         });
@@ -43,5 +70,5 @@ function editUserName(userID, targetUserName) {
 it("Lets edit the username", () => {
   cy.visit("https://playground.bondaracademy.com/pages/tables/smart-table");
   flag = false;
-  editUserName("60", "ruben@gmail.com");
+  editUserName("28", "ruben@gmail.com");
 });
