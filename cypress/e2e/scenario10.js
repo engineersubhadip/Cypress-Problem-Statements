@@ -15,7 +15,6 @@ function captureAllRowDetails(currentCounter) {
           .find("tr")
           .eq(currentCounter)
           .should("be.visible")
-          .and(() => {})
           .invoke("text")
           .should("have.length.at.least", 1)
           .then((capturedText) => {
