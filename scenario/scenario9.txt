@@ -1,0 +1,4 @@
+Imagine a form with multiple input fields, we want to place all their values into a single object.
+https://github.com/cypress-io/cypress/discussions/15762
+
+ref : index12.html / scenario9.js
