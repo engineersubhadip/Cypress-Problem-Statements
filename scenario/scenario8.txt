@@ -1,0 +1,3 @@
+Let's confirm that clicking on the button removes the initial class names.
+
+ref : index11.html / scenario8.js
