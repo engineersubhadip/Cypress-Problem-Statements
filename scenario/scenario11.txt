@@ -1,3 +1,19 @@
+Scenario 1 :
+-------------
+Capture element which has particular text
+
+ref : index14.html / scenario11.js
+
+Scenario 2 :
+---------------
 Imagine we have a list of elements. Some elements can have <span class="label">...</span> inside. We want to filter the top level list to only have elements that have a label inside.
 
 ref : index14.html / scenario11.js
+
+Scenario 3 :
+-------------
+Filter out the li which has warnings
+Imagine that some list elements have plain labels and some have warnings. 
+Can we find the list elements with labels OR warnings
+
+ref : index15.html / scenario11.js

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter out warnings</title>
+  </head>
+  <body>
+    <ol id="list">
+      <li>first</li>
+      <li>second</li>
+      <li>
+        <p>third <span class="badge label">New!</span></p>
+      </li>
+      <li>
+        <p>fourth <span class="badge label">New!</span></p>
+      </li>
+      <li>
+        <p>fifth <span class="badge warning">Deprecated</span></p>
+      </li>
+    </ol>
+    <style>
+      .badge {
+        padding: 0.2rem 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .label {
+        background-color: #8b8bee;
+      }
+      .warning {
+        background-color: #f99650;
+      }
+    </style>
+  </body>
+</html>
