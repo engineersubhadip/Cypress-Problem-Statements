@@ -1,0 +1,7 @@
+Version 1 : Of How to capture table data async manner
+There is a table, which gets loaded in async manner.
+We need to capture all the target column values, in a fashion that we will work with whatever has been
+loaded so far...
+Note :- We do not know, the total number of rows that will get loaded
+
+ref : index13.html / scenario10.js
