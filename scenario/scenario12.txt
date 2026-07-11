@@ -1,0 +1,3 @@
+How to check if the image has fully loaded
+
+ref : index16.html / scenario12.js
