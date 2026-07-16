@@ -1,0 +1,3 @@
+How to see full failure during assertion
+
+ref : index16.html / scenario14.js
