@@ -1,0 +1,3 @@
+Validate the product value of multiplication table
+
+ref : index17.html / scenario15.js
