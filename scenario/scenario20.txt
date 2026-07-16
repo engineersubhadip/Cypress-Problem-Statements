@@ -1,0 +1,3 @@
+Find and click the accordion with a button
+
+ref : index22.html / scenario20.js
