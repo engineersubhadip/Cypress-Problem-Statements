@@ -1,0 +1,3 @@
+How to capture the parent element's text, without the child element's text 
+
+ref : index19.html / scenario17.js
