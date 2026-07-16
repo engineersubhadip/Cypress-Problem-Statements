@@ -1,0 +1,3 @@
+How to convert yielded string to number and pass it along
+
+ref : index17.html / scenario16.js
