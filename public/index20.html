@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Price within a range</title>
+  </head>
+  <body>
+    <div id="price">$99.99</div>
+    <script>
+      // the initial price will come down after a discount
+      // is applied to be within the expected range
+      setTimeout(function () {
+        document.getElementById("price").innerText = "$14.99";
+      }, 1000);
+    </script>
+  </body>
+</html>

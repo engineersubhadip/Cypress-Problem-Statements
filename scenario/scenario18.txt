@@ -1,0 +1,3 @@
+Imagine we want to confirm that the displayed price is within certain range, for example between $10 and $20
+
+ref : index20.html / scenario18.js
