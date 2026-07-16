@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count clicks</title>
+  </head>
+  <body>
+    <ul>
+      <li><button>➕</button> Apples</li>
+      <li><button>➕</button> Kiwi</li>
+      <li><button>➕</button> Grapes</li>
+      <li><button>➕</button> Melon</li>
+    </ul>
+    <output id="count">0</output>
+    <script>
+      document.querySelectorAll("button").forEach(function (button) {
+        button.addEventListener("click", function () {
+          const output = document.getElementById("count");
+          const n = parseInt(output.innerText);
+          output.innerText = String(n + 1);
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Let's say we have a list of items, and there is a button next to each item. 
+We want to click on each item's button and then check the total number of clicks against the value displayed by the application.
+
+ref : index21.html / scenario19.js
