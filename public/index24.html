@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input has value</title>
+  </head>
+  <body>
+    <input id="greeting" type="text" value="hello" />
+    <input id="empty" type="text" />
+    <!-- this input is filled 1 second after the start -->
+    <input id="dynamic" type="text" />
+    <script>
+      setTimeout(() => {
+        document.getElementById("dynamic").value = "present";
+      }, 1000);
+    </script>
+  </body>
+</html>

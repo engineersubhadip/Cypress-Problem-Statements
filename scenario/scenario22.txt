@@ -1,0 +1,3 @@
+Verify the value of the input field
+
+ref : index24.html / scenario22.js
