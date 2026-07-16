@@ -1,0 +1,4 @@
+Let's say we want to check if the text from the first element is 
+present in the second element on the page.
+
+ref : index23.html / scenario21.js
