@@ -1,0 +1,4 @@
+Capture the text of the parent node only
+Do not capture the child node's text
+
+ref : index25.html / scenario23.js
