@@ -1,0 +1,3 @@
+Imagine the element the user clicks, like a button. The button adds a class "away" after some time, and then is removed from DOM completely
+
+ref : index28.html / scenario26.js

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Element Hides</title>
+	</head>
+	<body>
+		<button id="away">Click me</button>
+		<style>
+			.half {
+				opacity: 50%;
+			}
+		</style>
+		<script>
+			const btn = document.getElementById('away');
+			btn.addEventListener('click', () => {
+				setTimeout(() => {
+					btn.classList.add('half');
+				}, 1000);
+				setTimeout(() => {
+					btn.parentElement.remove(btn);
+				}, 2000);
+			});
+		</script>
+	</body>
+</html>
