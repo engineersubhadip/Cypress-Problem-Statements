@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Count Each Number</title>
+	</head>
+	<body>
+		<table class="as-table table table-bordered">
+			<thead>
+				<tr>
+					<th>Command</th>
+					<th>Count</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><button id="load1">Load</button></td>
+					<td id="count1"></td>
+				</tr>
+				<tr>
+					<td><button id="load2">Load</button></td>
+					<td id="count2"></td>
+				</tr>
+				<tr>
+					<td><button id="load3">Load</button></td>
+					<td id="count3"></td>
+				</tr>
+			</tbody>
+		</table>
+		<script>
+			const get = document.getElementById.bind(document);
+			[1, 2, 3].forEach((k) => {
+				get('load' + k).addEventListener('click', () => {
+					setTimeout(() => {
+						get('count' + k).innerText = k + 4;
+					}, 1000);
+				});
+			});
+		</script>
+	</body>
+</html>

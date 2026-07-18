@@ -1,0 +1,4 @@
+Every row in this table has a button that loads some count and shows it in the next cell.
+The total sum should be 18.
+
+ref : index30.html / scenario28.js
