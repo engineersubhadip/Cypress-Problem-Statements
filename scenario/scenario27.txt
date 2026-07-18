@@ -1,0 +1,8 @@
+How to work with Input fields.
+
+ref : index29.html / scenario27.js
+
+Steps :
+1. Capture the initial Value
+2. Then re-query the element, and check the current value is not same as initialVal
+3. Re-query the element and clear it and then type the target

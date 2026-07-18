@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Work with input fields</title>
+	</head>
+	<body>
+		<input id="answer" placeholder="Enter your answer" value="00" />
+		<script>
+			setTimeout(() => {
+				const input = document.getElementById('answer');
+				input.value = 777;
+				input.property.value = 777;
+			}, 1000);
+		</script>
+	</body>
+</html>
