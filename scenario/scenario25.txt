@@ -1,0 +1,3 @@
+Notice that some entries in the list have two prices. We want to ignore the old price, and take the current discounted price when checking the sorted list.
+
+ref : index27.html / scenario25.js
