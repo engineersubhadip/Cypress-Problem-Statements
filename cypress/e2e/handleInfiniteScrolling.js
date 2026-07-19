@@ -42,12 +42,15 @@ function interactWithInfiniteLoadingTable() {
 		.then((interception) => {
 			const currentResponseLength = interception.response.body.data.length;
 			if (currentResponseLength < 10) {
-				fetchDataFromAPI(interception.response.body.data);
-				fetchDataFromUI(0);
-			} else {
-				// expect(interception.response.body.data.length).to.eql(10);
 				// * Now we are good to fetch data from API
 				fetchDataFromAPI(interception.response.body.data);
+				// * Now we are good to fetch data from UI
+				fetchDataFromUI(0);
+			} else {
+				expect(interception.response.body.data.length).to.eql(10);
+				// * Now we are good to fetch data from API
+				fetchDataFromAPI(interception.response.body.data);
+				// * Now we are good to fetch data from UI
 				fetchDataFromUI(0);
 				interactWithInfiniteLoadingTable();
 			}
