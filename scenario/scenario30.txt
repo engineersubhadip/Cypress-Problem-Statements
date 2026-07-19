@@ -1,0 +1,7 @@
+The following list has elements with different data- attributes. 
+They all have href attributes, let's confirm it.
+Then let's confirm the reverse: elements without data- attributes have no href.
+
+https://www.youtube.com/watch?v=sppI7xabyoA&feature=youtu.be
+
+ref : index32.html / scenario30.js
