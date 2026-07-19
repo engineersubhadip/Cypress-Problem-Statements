@@ -1,0 +1,5 @@
+Let's pretend we have a table, and we want to sum prices shown in the California cells only. 
+These cells start with "CA". How can we write a little utility function to do it for us? 
+How do we return the sum?
+
+ref : index31.html / scenario29.js
