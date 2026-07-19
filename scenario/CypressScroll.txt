@@ -1,0 +1,5 @@
+1. Cypress scrolls the input field to the top, before interacting with it
+
+ref : https://practice-automation.com/form-fields/
+
+scenario31.js
