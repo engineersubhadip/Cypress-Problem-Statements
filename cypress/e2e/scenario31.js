@@ -15,3 +15,8 @@ it(
 		cy.get('#email').type('test@test.com');
 	},
 );
+
+it.only('How to scroll to bottom of the page', () => {
+	cy.visit('https://practice-automation.com/form-fields/');
+	cy.window().scrollTo('bottom');
+});

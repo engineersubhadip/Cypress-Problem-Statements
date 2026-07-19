@@ -3,3 +3,7 @@
 ref : https://practice-automation.com/form-fields/
 
 scenario31.js
+
+2. How to scroll to bottom of the page ?
+
+cy.window().scrollTo('bottom')
